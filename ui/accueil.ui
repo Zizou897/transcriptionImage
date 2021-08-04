@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>MainWindow</class>
- <widget class="QMainWindow" name="MainWindow">
+ <class>Home</class>
+ <widget class="QMainWindow" name="Home">
   <property name="geometry">
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>776</width>
-    <height>584</height>
+    <width>1081</width>
+    <height>917</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -19,15 +19,19 @@
      <rect>
       <x>0</x>
       <y>0</y>
-      <width>781</width>
-      <height>561</height>
+      <width>1081</width>
+      <height>901</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border : 1px solid gray;
+background-image : url(:/img/static/bienvenue-arriere-plan-ecole-articles-elements-scolaires-feuille-papier-feuilles-automne-stylos-crayons-pinceaux-loupe-table-bois_149267-1153.jpeg)</string>
     </property>
     <property name="text">
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="../ressource.qrc">:/img/static/livre.jpeg</pixmap>
+     <pixmap resource="../ressource.qrc">:/img/static/20210206_143049.jpeg</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -36,133 +40,107 @@
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>50</x>
-      <y>10</y>
-      <width>681</width>
-      <height>51</height>
+      <x>200</x>
+      <y>50</y>
+      <width>661</width>
+      <height>111</height>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">
-QLabel{
-	background:rgb(142, 119, 226);
-	border-radius:10px;
-	font: 24pt &quot;.AppleSystemUIFont&quot;;
-	color: #fff;
-}
-	</string>
+     <string notr="true">background: rgb(255, 218, 199);
+border-radius:15px;
+font-size : 30px;
+
+	
+</string>
     </property>
     <property name="text">
-     <string>Transcription d'Image</string>
+     <string>Transcription D'Image</string>
     </property>
     <property name="alignment">
      <set>Qt::AlignCenter</set>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton">
+   <widget class="QLabel" name="label_5">
     <property name="geometry">
      <rect>
-      <x>622</x>
-      <y>621</y>
-      <width>171</width>
-      <height>51</height>
+      <x>280</x>
+      <y>80</y>
+      <width>81</width>
+      <height>61</height>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">
-QPushButton{
-	color: rgb(142, 119, 226);
-	border:none;
-	font: 24pt &quot;.AppleSystemUIFont&quot;;
-	transition: 0.3s
-}
-
-QPushButton:hover{
-	background: #ddd;
-	color: rgb(142, 119, 226);
-	border:none;
-	border-radius:10px;
-	font: 24pt &quot;.AppleSystemUIFont&quot;;
-}
-
-
-QPushButton:focus{
-	background: #919191;
-	color: rgb(142, 119, 226);
-	border:none;
-	border-radius:10px;
-	font: 24pt &quot;.AppleSystemUIFont&quot;;
-}
-</string>
+     <string notr="true">background-image : url(:/img/static/4696758.png)</string>
     </property>
     <property name="text">
-     <string>PushButton</string>
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="../ressource.qrc">:/img/static/4696758.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_2">
+   <widget class="QPushButton" name="projets_btn">
     <property name="geometry">
      <rect>
-      <x>530</x>
-      <y>470</y>
-      <width>171</width>
-      <height>71</height>
+      <x>760</x>
+      <y>660</y>
+      <width>231</width>
+      <height>131</height>
      </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>13</pointsize>
-      <weight>75</weight>
-      <bold>true</bold>
-     </font>
     </property>
     <property name="styleSheet">
      <string notr="true">QPushButton{
-	Background:rgb(123, 124, 124); 
-	color:#fff;
-	border-radius:10px;
-}
-
-QPushButton:hover{
-	Background:rgb(160, 161, 161); 
-	color:#fff;
-	border-radius:10px;
-}</string>
-    </property>
-    <property name="text">
-     <string>Historisque</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton_3">
-    <property name="geometry">
-     <rect>
-      <x>130</x>
-      <y>470</y>
-      <width>171</width>
-      <height>71</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>13</pointsize>
-      <weight>75</weight>
-      <bold>true</bold>
-     </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">QPushButton{
-	Background:rgb(123, 124, 124); 
-	color:#fff;
+background: rgb(255, 218, 199);
 border-radius:10px;
+font-size : 30px;
+text-align:right;
+image:url(:/img/static/4696798.png);
+padding: 40px;
+image-position:left;
 }
 
-QPushButton:hover{
-	Background:rgb(160, 161, 161); 
-	color:#fff;
-	border-radius:10px;
+QPushButton:pressed{
+background: rgb(223, 186, 168);
+border-radius:10px;
+font-size : 30px;
 }</string>
     </property>
     <property name="text">
-     <string>Créer</string>
+     <string>Projets</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="creation_btn">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>660</y>
+      <width>261</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background: rgb(255, 218, 199);
+border-radius:10px;
+font-size : 30px;
+text-align:right;
+image:url(:/img/static/4696755.png);
+padding: 40px;
+image-position:left;
+}
+
+QPushButton:pressed{
+background: rgb(223, 186, 168);
+border-radius:10px;
+font-size : 30px;
+}</string>
+    </property>
+    <property name="text">
+     <string>Création</string>
     </property>
    </widget>
   </widget>

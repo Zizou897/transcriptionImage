@@ -1,5 +1,22 @@
 <RCC>
   <qresource prefix="img">
+    <file>static/4696755.png</file>
+    <file>static/860812.png</file>
+    <file>static/5152476.png</file>
+    <file>static/1187525.png</file>
+    <file>static/1828926.png</file>
+    <file>static/1149576.png</file>
+    <file>static/650173.png</file>
+    <file>static/98116.png</file>
+    <file>static/4892322.png</file>
+    <file>static/4696820.png</file>
+    <file>static/360_F_275494852_Cwvi8Kg8YonZo7CflJJOL13nFFNaiVwl.webp</file>
+    <file>static/2344147.png</file>
+    <file>static/4696798.png</file>
+    <file>static/4696755.png</file>
+    <file>static/4696758.png</file>
+    <file>static/20210206_143049.jpeg</file>
+    <file>static/bienvenue-arriere-plan-ecole-articles-elements-scolaires-feuille-papier-feuilles-automne-stylos-crayons-pinceaux-loupe-table-bois_149267-1153.jpeg</file>
     <file>static/livre.jpeg</file>
   </qresource>
 </RCC>
